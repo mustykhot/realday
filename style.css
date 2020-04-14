@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    will-change: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Vesper Libre', serif;
+    background: url(image/donut-nine.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(207,19,107);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+    
+.table{
+        background: #fff;
+        padding: 40px 20px;
+        font-family: "montserrat", sans-serif;
+        font-style: initial;
+        font-size: large;
+        font-weight: 100;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 10px bisque ;
+        border-radius: 20px;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-delay: -2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    
+    }
+
+
+h1,h2{
+    margin: 8px;
+}
+
+@keyframes example{
+
+    from {
+        background-color: #fff;
+    }
+    to {
+        background-color: rgb(207,19,107);
+    }
+}
+
+@keyframes example2{
+    from {
+        color: rgb(207,19,107);
+    }
+    to {
+        color: white;
+    }
+}
