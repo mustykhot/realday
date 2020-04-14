@@ -9,34 +9,36 @@ body{
     display: grid;
     place-items: center;
     font-family: 'Vesper Libre', serif;
-    background: url(image/donut-nine.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
+    background-color: #EEB7C5
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    color: rgb(207,19,107);
+    background-size: cover; */
+    /* color: rgb(207,19,107);
     animation-name: example2;
     animation-duration: 4s;
     animation-delay: -1s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
 
 
 }
 
 .container{
-    max-width: 400px;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px;
-    max-width: 320px;
-    box-sizing: border-box;
-    background-color: whitesmoke;
+  width: 80%;
+  max-width: 300px;
+  height: 400px;
+  padding: 30px;
+  padding-top: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.75);
 }
 
-    
+/*
 .table{
         background: #fff;
         padding: 40px 20px;
@@ -53,29 +55,22 @@ body{
         animation-delay: -1s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
-    
-    }
 
+    } */
 
-h1,h2{
-    margin: 8px;
+h1#d {
+  text-transform: uppercase;
 }
 
-@keyframes example{
-
-    from {
-        background-color: #fff;
-    }
-    to {
-        background-color: rgb(207,19,107);
-    }
+p#quote {
+  line-height: 1.5;
+  font-size: 20px;
+  margin: 5px 0;
 }
 
-@keyframes example2{
-    from {
-        color: rgb(207,19,107);
-    }
-    to {
-        color: white;
-    }
+p#person {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 40px
 }
